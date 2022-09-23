@@ -1,0 +1,14 @@
+# Ignore everything in `~/`
+*
+
+# Track `myrepos` config files
+!/.mrconfig
+!/.config
+!/.config/mr
+!/.config/mr/available.d
+!/.config/mr/available.d/*
+
+# Track the file we are currently editing
+!/.gitignore.d
+!/.gitignore.d/dotfiles
+
