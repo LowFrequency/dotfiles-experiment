@@ -1,4 +1,6 @@
 [$HOME/.config/vcsh/repo.d/zsh.git]
-order = 10
 checkout =
   vcsh clone -b zsh git@github.com:chopfitzroy/dotfiles-experiment.git zsh
+status = vcsh zsh status
+pull = vcsh zsh pull
+

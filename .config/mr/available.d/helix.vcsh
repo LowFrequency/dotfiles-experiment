@@ -1,4 +1,6 @@
 [$HOME/.config/vcsh/repo.d/helix.git]
-order = 10
 checkout =
   vcsh clone -b helix git@github.com:chopfitzroy/dotfiles-experiment.git helix
+status = vcsh helix status
+pull = vcsh helix pull
+
