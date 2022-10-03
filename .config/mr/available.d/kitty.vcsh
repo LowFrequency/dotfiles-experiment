@@ -1,0 +1,5 @@
+[$HOME/.config/vcsh/repo.d/kitty.git]
+checkout =
+  vcsh clone -b kitty git@github.com:chopfitzroy/dotfiles-experiment.git kitty
+status = vcsh kitty status
+pull = vcsh kitty pull
